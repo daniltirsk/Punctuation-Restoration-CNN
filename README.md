@@ -12,3 +12,21 @@
 
 Результат работы сети представлен ниже
 ![image](https://user-images.githubusercontent.com/56964428/175309137-6fc726ba-0149-4ab0-b47f-220451d99f74.png)
+
+## Использование
+Для тестирование нейронной сети приложен jupyter notebook CNN_Punctuation_Restoration_Demo с описанием работы и взаимодействия с сетью.
+Также доступен python script - punctRest.py
+
+### Параметры скрипта
+--model-path / -m - Локальный путь до модели punctRestorationModel.pth 
+default='./models/punctRestorationModel.pth'
+
+--bert-path / -b - Локальный путь до модели ruBERT. Модель должна быть скачана и распокована по указанному пути. 
+default='./models/bert'
+Ссылка на официальный сайт - http://docs.deeppavlov.ai/en/master/features/models/bert.html
+
+--text / -t - Текст для обработки
+default="Пусто" 
+
+--device / -d - Использовать CPU или GPU для обработки
+default="cpu"
