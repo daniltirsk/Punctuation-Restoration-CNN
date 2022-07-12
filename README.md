@@ -15,6 +15,9 @@
 
 ## Использование
 Для тестирование нейронной сети приложен jupyter notebook CNN_Punctuation_Restoration_Demo с описанием работы и взаимодействия с сетью.
+Сеть использует модель ruBert для создания эмбеддингов. Скачивание в тетрадке происходит автоматически. 
+Для использование консольного скрипта скачайте модель ruBert с официалного сайта.
+Ссылка на официальный сайт - http://docs.deeppavlov.ai/en/master/features/models/bert.html
 Также доступен python script - punctRest.py
 
 ### Параметры скрипта
@@ -22,8 +25,7 @@
 default='./models/punctRestorationModel.pth'
 
 --bert-path / -b - Локальный путь до модели ruBERT. Модель должна быть скачана и распокована по указанному пути. 
-default='./models/bert' \n
-Ссылка на официальный сайт - http://docs.deeppavlov.ai/en/master/features/models/bert.html
+default='./models/bert'
 
 --text / -t - Текст для обработки
 default="Пусто" 
