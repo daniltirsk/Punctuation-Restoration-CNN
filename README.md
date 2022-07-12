@@ -22,7 +22,7 @@
 default='./models/punctRestorationModel.pth'
 
 --bert-path / -b - Локальный путь до модели ruBERT. Модель должна быть скачана и распокована по указанному пути. 
-default='./models/bert'
+default='./models/bert' \n
 Ссылка на официальный сайт - http://docs.deeppavlov.ai/en/master/features/models/bert.html
 
 --text / -t - Текст для обработки
