@@ -32,3 +32,11 @@ default="Пусто"
 
 --device / -d - Использовать CPU или GPU для обработки
 default="cpu"
+
+
+## Использованные датасеты
+train_1 - https://drive.google.com/file/d/1-0O_y6pFl0f3lPI18_PjGGdc_pzcV5-9/view?usp=sharing
+train_2 - https://drive.google.com/file/d/1-3YCabppT0G3a1luQWpa0L0Z-bHUGRYa/view?usp=sharing
+train_3 - https://drive.google.com/file/d/1-3c4saBL_0ClH2nlEEClChEVvJM5Dl8g/view?usp=sharing
+test - https://drive.google.com/file/d/1--yQ465xpCmB_z61q1XqbQEaH9G4bRdi/view?usp=sharing
+validation - https://drive.google.com/file/d/1-GMghRdG9SDvKBMT7LVlTCIOKT2Ci_NF/view?usp=sharing
