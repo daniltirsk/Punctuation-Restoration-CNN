@@ -18,7 +18,9 @@
 Также доступен python script - punctRest.py
 Сеть использует модель ruBert для создания эмбеддингов. Скачивание в тетрадке происходит автоматически. 
 Для использование консольного скрипта скачайте модель ruBert с официалного сайта.  
-Ссылка на официальный сайт - http://docs.deeppavlov.ai/en/master/features/models/bert.html
+Ссылка на официальный сайт - http://docs.deeppavlov.ai/en/master/features/models/bert.html  
+  
+Видео демонстрация работы скрипта - https://drive.google.com/file/d/1_gTkOZ_omy4ntoIRXCyUTXFF2c7B9mTz/view?usp=sharing
 
 ### Параметры скрипта
 --model-path / -m - Локальный путь до модели punctRestorationModel.pth   
