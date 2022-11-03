@@ -5,6 +5,9 @@ https://t.me/punctuator_bot
 
 <img src="https://user-images.githubusercontent.com/56964428/199641257-22118057-6635-4029-ba5a-39733fb89551.jpg" width="400">
 
+## Демонстрация работы телеграм бота
+https://drive.google.com/file/d/1OdMsht9yxQMAfLNkoebZCSQmyz05CRRc/view?usp=share_link
+
 # Punctuation-Restoration-CNN
 В данной работе рассмотрены несколько архитектур сверточных нейронных сетей для решения задачи восстановления знаков препинания в неструктурированном тексте, при моделировании задачи как проблемы многоклассовой классификации.
 
